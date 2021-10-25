@@ -10,18 +10,35 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
-    <div class="container">
+<body class="signinBody">
+    <div class="container signinContainer">
         <div class="row">
-            <div class="col">
-            
-            </div>
+            <div class="col"> <!-- takes leftovers form col-8 --></div>
             <div class="col-8">
-            
+                <div class="card signinCard">
+                  <div class="card-body">
+                    <img src="my_profile.jpg" class="img-fluid signinImg">
+                    <form class="signin-form">
+                        <div class="mb-3 top">
+                          <label class="form-label"></label>
+                          <input type="email" class="form-control" id="" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label"></label>
+                          <input type="password" class="form-control" id="" placeholder="Password">
+                        </div> 
+                        <button type="button" class="btn btn-lg signin-btn ">Sign In</button>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="">
+                          <label class="form-check-label">
+                            Default checkbox
+                          </label>
+                        </div>
+                    </form>
+                  </div>
+                </div>
             </div>
-            <div class="col-4">
-            
-            </div>
+            <div class="col"></div>
         </div>
     </div>
     
