@@ -1,9 +1,15 @@
+/*################# Defoults #################*/
+a {
+    text-decoration: none;
+}
+
+/*################# Sign In page #################*/
 .signinBody {
     background-color: #e6f2ff;
 }
 
 .container.signinContainer {
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 .card.signinCard {
@@ -15,10 +21,9 @@
 }
 
 img.signinImg{
-    padding: 0 2rem 2rem;
+    padding: 0 2rem;
     margin: auto;
     display: block; 
-    width: 70%;
     border-radius: 60%;
 }
 
@@ -37,6 +42,44 @@ button.signin-btn {
     display: block;
     border-color: black;
     width: 100%;
+    margin-bottom: 1.2rem;
 }
+
+.form-check .box {
+    margin-top: 0.35rem;
+}
+
+a.create-new-account {
+    font-size: 1.2;
+    display: block;
+    text-align: center;
+    margin-top: 1.2rem;
+    
+}
+/*################# #################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
